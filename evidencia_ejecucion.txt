@@ -1,0 +1,13 @@
+=== PRUEBA 1: renovación válida ===
+[NOTIFICACIÓN a Ana Torres <ana@univ.edu.co>] Su préstamo fue renovado.
+Nueva fecha prevista: 2026-10-15
+Cantidad de renovaciones: 1
+Fecha anterior conservada: 2026-10-08
+
+=== PRUEBA 2: renovación inválida (fecha anterior a la vigente) ===
+Rechazada correctamente: La nueva fecha (2026-10-10) debe ser posterior a la fecha prevista vigente (2026-10-15).
+Fecha prevista sigue en: 2026-10-15
+Cantidad de renovaciones sigue en: 1
+
+=== PRUEBA 3: renovación inválida (fecha igual) ===
+Rechazada correctamente: La nueva fecha (2026-10-15) debe ser posterior a la fecha prevista vigente (2026-10-15).
